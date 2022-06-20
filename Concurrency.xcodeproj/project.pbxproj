@@ -12,6 +12,7 @@
 		02428DC7285CB07B00788073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02428DC6285CB07B00788073 /* Assets.xcassets */; };
 		02428DCA285CB07B00788073 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02428DC9285CB07B00788073 /* Preview Assets.xcassets */; };
 		02428DD3285CB19900788073 /* DoCatchTryThrowBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02428DD2285CB19900788073 /* DoCatchTryThrowBootcamp.swift */; };
+		02428DD5285F483300788073 /* DownloadingImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02428DD4285F483200788073 /* DownloadingImageAsync.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		02428DC6285CB07B00788073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02428DC9285CB07B00788073 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02428DD2285CB19900788073 /* DoCatchTryThrowBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowBootcamp.swift; sourceTree = "<group>"; };
+		02428DD4285F483200788073 /* DownloadingImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageAsync.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				02428DC2285CB07A00788073 /* ConcurrencyApp.swift */,
 				02428DC4285CB07A00788073 /* ContentView.swift */,
 				02428DD2285CB19900788073 /* DoCatchTryThrowBootcamp.swift */,
+				02428DD4285F483200788073 /* DownloadingImageAsync.swift */,
 				02428DC6285CB07B00788073 /* Assets.xcassets */,
 				02428DC8285CB07B00788073 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02428DD3285CB19900788073 /* DoCatchTryThrowBootcamp.swift in Sources */,
+				02428DD5285F483300788073 /* DownloadingImageAsync.swift in Sources */,
 				02428DC5285CB07A00788073 /* ContentView.swift in Sources */,
 				02428DC3285CB07A00788073 /* ConcurrencyApp.swift in Sources */,
 			);
@@ -280,7 +284,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +294,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,7 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +323,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -28,11 +28,11 @@ class DoCatchTryThrowBootcampDataManager {
     }
     
     func getTitle3() throws -> String {
-//        if isActive {
-//            return "NEW TEXT"
-//        } else {
+        if isActive {
+            return "NEW TEXT"
+        } else {
             throw URLError(.badServerResponse)
-//        }
+        }
     }
     
     func getTitle4() throws -> String {
