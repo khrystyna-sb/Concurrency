@@ -13,7 +13,8 @@ struct ConcurrencyApp: App {
         WindowGroup {
 //            DownloadingImageAsync()
 //            AsyncAwainBootcamp()
-            TestContent()
+//            TestContent()
+            AsyncLetBootcamp()
 //            TaskBootbamp()
         }
     }
