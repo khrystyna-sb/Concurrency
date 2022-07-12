@@ -14,7 +14,7 @@ struct TestContent: View {
     var body: some View {
         VStack (spacing: 10) {
             Button {
-                Task {
+                Task(priority: .high) {
                     await viewModel.fetchPerson()
                 }
             }
