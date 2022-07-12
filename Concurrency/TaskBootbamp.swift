@@ -38,6 +38,7 @@ class TaskBootcampViewModel: ObservableObject {
 struct TaskBootbamp: View {
     
     @StateObject private var viewModel = TaskBootcampViewModel()
+//    @State private var fetchImageTask: Task<(), Never>? = nil
     
     var body: some View {
         VStack(spacing: 40) {
@@ -54,10 +55,14 @@ struct TaskBootbamp: View {
                     .frame(width: 200, height: 200)
             }
         }
-        .onAppear {
-            Task {
-                await viewModel.fetchImage()
-            }
+//        .onDisappear(perform: {
+            //we can can cancel the Task if user closed the window by
+//            fetchImageTask?.cancel()
+//        })
+//        .onAppear {
+//            fetchImageTask = Task {
+//                await viewModel.fetchImage()
+//            }
 //            Task {
 //                print(Thread.current)
 //                print(Task.currentPriority)
