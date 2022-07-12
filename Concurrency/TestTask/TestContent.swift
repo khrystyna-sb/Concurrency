@@ -22,16 +22,10 @@ struct TestContent: View {
                 Text("Download")
             }
             if let people = viewModel.people {
-                ForEach(people.indices) { index in
-                    if let firstName = people[index].first_name {
-                        Text(firstName)
-                    }
-                    if let lastname = people[index].last_name {
-                        Text(lastname)
-                    }
-                    if let age = people[index].age {
-                        Text("\(age)")
-                    }
+                ForEach(people, id: \.self) { person in
+                    Text(person.first_name)
+                    Text(person.last_name)
+                    Text("\(person.age)")
                 }
             }
         }

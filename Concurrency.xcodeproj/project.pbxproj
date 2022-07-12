@@ -18,6 +18,7 @@
 		0293287E2877585D007E1717 /* PersonDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0293287D2877585D007E1717 /* PersonDataModel.swift */; };
 		0293288028775886007E1717 /* TestContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0293287F28775886007E1717 /* TestContentViewModel.swift */; };
 		0293288228786FB8007E1717 /* TaskBootbamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0293288128786FB8007E1717 /* TaskBootbamp.swift */; };
+		02AAF10C287D91CC00492A56 /* AsyncLetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AAF10B287D91CC00492A56 /* AsyncLetBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		0293287D2877585D007E1717 /* PersonDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDataModel.swift; sourceTree = "<group>"; };
 		0293287F28775886007E1717 /* TestContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContentViewModel.swift; sourceTree = "<group>"; };
 		0293288128786FB8007E1717 /* TaskBootbamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootbamp.swift; sourceTree = "<group>"; };
+		02AAF10B287D91CC00492A56 /* AsyncLetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				0293287C28775826007E1717 /* TestTask */,
 				02428DD62860FF6900788073 /* AsyncAwainBootcamp.swift */,
 				02428DC4285CB07A00788073 /* ContentView.swift */,
+				02AAF10B287D91CC00492A56 /* AsyncLetBootcamp.swift */,
 				02428DD2285CB19900788073 /* DoCatchTryThrowBootcamp.swift */,
 				02428DD4285F483200788073 /* DownloadingImageAsync.swift */,
 				0293288128786FB8007E1717 /* TaskBootbamp.swift */,
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02428DD3285CB19900788073 /* DoCatchTryThrowBootcamp.swift in Sources */,
+				02AAF10C287D91CC00492A56 /* AsyncLetBootcamp.swift in Sources */,
 				02428DD72860FF6900788073 /* AsyncAwainBootcamp.swift in Sources */,
 				02428DD5285F483300788073 /* DownloadingImageAsync.swift in Sources */,
 				0293287E2877585D007E1717 /* PersonDataModel.swift in Sources */,
