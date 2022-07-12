@@ -38,7 +38,7 @@ class TaskBootcampViewModel: ObservableObject {
 struct TaskBootbamp: View {
     
     @StateObject private var viewModel = TaskBootcampViewModel()
-//    @State private var fetchImageTask: Task<(), Never>? = nil
+    //    @State private var fetchImageTask: Task<(), Never>? = nil
     
     var body: some View {
         VStack(spacing: 40) {
@@ -55,40 +55,40 @@ struct TaskBootbamp: View {
                     .frame(width: 200, height: 200)
             }
         }
-//        .onDisappear(perform: {
-            //we can can cancel the Task if user closed the window by
-//            fetchImageTask?.cancel()
-//        })
-//        .onAppear {
-//            fetchImageTask = Task {
-//                await viewModel.fetchImage()
-//            }
-//            Task {
-//                print(Thread.current)
-//                print(Task.currentPriority)
-//                await viewModel.fetchImage2()
-//            }
-//            Task(priority: .high) {
-//                print("high : \(Thread.current) : \(Task.currentPriority)")
-//            }
-//            Task(priority: .userInitiated) {
-//                print("userInitiated : \(Thread.current) : \(Task.currentPriority)")
-//            }
-//            Task(priority: .medium) {
-//                print("medium : \(Thread.current) : \(Task.currentPriority)")
-//            }
-//            Task(priority: .utility) {
-//                print("utility : \(Thread.current) : \(Task.currentPriority)")
-//            }
-//            Task(priority: .low) {
-//                print("LOW : \(Thread.current) : \(Task.currentPriority)")
-//            }
-//            Task(priority: .background) {
-//                print("background : \(Thread.current) : \(Task.currentPriority)")
-//            }
-        }
+        //        .onDisappear(perform: {
+        //we can can cancel the Task if user closed the window by
+        //            fetchImageTask?.cancel()
+        //        })
+        //        .onAppear {
+        //            fetchImageTask = Task {
+        //                await viewModel.fetchImage()
+        //            }
+        //            Task {
+        //                print(Thread.current)
+        //                print(Task.currentPriority)
+        //                await viewModel.fetchImage2()
+        //            }
+        //            Task(priority: .high) {
+        //                print("high : \(Thread.current) : \(Task.currentPriority)")
+        //            }
+        //            Task(priority: .userInitiated) {
+        //                print("userInitiated : \(Thread.current) : \(Task.currentPriority)")
+        //            }
+        //            Task(priority: .medium) {
+        //                print("medium : \(Thread.current) : \(Task.currentPriority)")
+        //            }
+        //            Task(priority: .utility) {
+        //                print("utility : \(Thread.current) : \(Task.currentPriority)")
+        //            }
+        //            Task(priority: .low) {
+        //                print("LOW : \(Thread.current) : \(Task.currentPriority)")
+        //            }
+        //            Task(priority: .background) {
+        //                print("background : \(Thread.current) : \(Task.currentPriority)")
+        //            }
     }
 }
+
 
 struct TaskBootbamp_Previews: PreviewProvider {
     static var previews: some View {
