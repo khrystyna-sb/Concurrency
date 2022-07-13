@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		02428DC3285CB07A00788073 /* ConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02428DC2285CB07A00788073 /* ConcurrencyApp.swift */; };
-		02428DC5285CB07A00788073 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02428DC4285CB07A00788073 /* ContentView.swift */; };
+		02428DC5285CB07A00788073 /* TaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02428DC4285CB07A00788073 /* TaskGroupBootcamp.swift */; };
 		02428DC7285CB07B00788073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02428DC6285CB07B00788073 /* Assets.xcassets */; };
 		02428DCA285CB07B00788073 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02428DC9285CB07B00788073 /* Preview Assets.xcassets */; };
 		02428DD3285CB19900788073 /* DoCatchTryThrowBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02428DD2285CB19900788073 /* DoCatchTryThrowBootcamp.swift */; };
@@ -24,7 +24,7 @@
 /* Begin PBXFileReference section */
 		02428DBF285CB07A00788073 /* Concurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02428DC2285CB07A00788073 /* ConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyApp.swift; sourceTree = "<group>"; };
-		02428DC4285CB07A00788073 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02428DC4285CB07A00788073 /* TaskGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootcamp.swift; sourceTree = "<group>"; };
 		02428DC6285CB07B00788073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02428DC9285CB07B00788073 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02428DD2285CB19900788073 /* DoCatchTryThrowBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowBootcamp.swift; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 				02428DC2285CB07A00788073 /* ConcurrencyApp.swift */,
 				0293287C28775826007E1717 /* TestTask */,
 				02428DD62860FF6900788073 /* AsyncAwainBootcamp.swift */,
-				02428DC4285CB07A00788073 /* ContentView.swift */,
+				02428DC4285CB07A00788073 /* TaskGroupBootcamp.swift */,
 				02AAF10B287D91CC00492A56 /* AsyncLetBootcamp.swift */,
 				02428DD2285CB19900788073 /* DoCatchTryThrowBootcamp.swift */,
 				02428DD4285F483200788073 /* DownloadingImageAsync.swift */,
@@ -177,7 +177,7 @@
 				0293288028775886007E1717 /* TestContentViewModel.swift in Sources */,
 				0293288228786FB8007E1717 /* TaskBootbamp.swift in Sources */,
 				0293287B28775808007E1717 /* TestContent.swift in Sources */,
-				02428DC5285CB07A00788073 /* ContentView.swift in Sources */,
+				02428DC5285CB07A00788073 /* TaskGroupBootcamp.swift in Sources */,
 				02428DC3285CB07A00788073 /* ConcurrencyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
