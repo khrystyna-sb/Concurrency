@@ -11,11 +11,7 @@ import SwiftUI
 struct ConcurrencyApp: App {
     var body: some Scene {
         WindowGroup {
-//            DownloadingImageAsync()
-//            AsyncAwainBootcamp()
-//            TestContent()
-            AsyncLetBootcamp()
-//            TaskBootbamp()
+            CheckedContinuationBootcamp()
         }
     }
 }

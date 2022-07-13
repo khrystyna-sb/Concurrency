@@ -19,6 +19,7 @@
 		0293288028775886007E1717 /* TestContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0293287F28775886007E1717 /* TestContentViewModel.swift */; };
 		0293288228786FB8007E1717 /* TaskBootbamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0293288128786FB8007E1717 /* TaskBootbamp.swift */; };
 		02AAF10C287D91CC00492A56 /* AsyncLetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AAF10B287D91CC00492A56 /* AsyncLetBootcamp.swift */; };
+		02AAF10E287EEF5C00492A56 /* CheckedContinuationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AAF10D287EEF5C00492A56 /* CheckedContinuationBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		0293287F28775886007E1717 /* TestContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContentViewModel.swift; sourceTree = "<group>"; };
 		0293288128786FB8007E1717 /* TaskBootbamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootbamp.swift; sourceTree = "<group>"; };
 		02AAF10B287D91CC00492A56 /* AsyncLetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetBootcamp.swift; sourceTree = "<group>"; };
+		02AAF10D287EEF5C00492A56 /* CheckedContinuationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuationBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				02428DC2285CB07A00788073 /* ConcurrencyApp.swift */,
 				0293287C28775826007E1717 /* TestTask */,
+				02AAF10D287EEF5C00492A56 /* CheckedContinuationBootcamp.swift */,
 				02428DD62860FF6900788073 /* AsyncAwainBootcamp.swift */,
 				02428DC4285CB07A00788073 /* TaskGroupBootcamp.swift */,
 				02AAF10B287D91CC00492A56 /* AsyncLetBootcamp.swift */,
@@ -177,6 +180,7 @@
 				0293288028775886007E1717 /* TestContentViewModel.swift in Sources */,
 				0293288228786FB8007E1717 /* TaskBootbamp.swift in Sources */,
 				0293287B28775808007E1717 /* TestContent.swift in Sources */,
+				02AAF10E287EEF5C00492A56 /* CheckedContinuationBootcamp.swift in Sources */,
 				02428DC5285CB07A00788073 /* TaskGroupBootcamp.swift in Sources */,
 				02428DC3285CB07A00788073 /* ConcurrencyApp.swift in Sources */,
 			);
